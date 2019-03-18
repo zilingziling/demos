@@ -1,3 +1,7 @@
+.buttonWrap {
+  width: fit-content;
+  margin: 100px auto 40px;
+}
 .gridWrapper {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
@@ -25,6 +29,7 @@
   line-height: 40px;
   cursor: auto;
   border-radius: 5px;
+  text-align: center;
 }
 .cardsAddBtn {
   margin: 10px;

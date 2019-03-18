@@ -1,7 +1,8 @@
-
+import Router from './config/routerConfig'
 // ref: https://umijs.org/config/
 export default {
   treeShaking: true,
+  routes:Router,
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {

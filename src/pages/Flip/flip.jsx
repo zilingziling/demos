@@ -12,7 +12,7 @@ class Flip extends Component {
     const r = Math.floor(Math.random() * 256);
     const g = Math.floor(Math.random() * 256);
     const b = Math.floor(Math.random() * 256);
-    const alpha = Math.random(); //随机生成1以内a值
+    const alpha = Math.random().toFixed(13); //随机生成1以内a值
     return `rgba(${r},${g},${b},${alpha})`; //返回rgba(r,g,b,a)格式颜色}
   }
   addOne = () => {
@@ -37,6 +37,7 @@ class Flip extends Component {
     const { cardsArr,content } = this.state;
     return (
       <>
+        <div className={styles.buttonWrap}>
         {content===1?
           <>
           <button className={styles.cardsAddBtn} onClick={this.addOne}>
@@ -49,6 +50,7 @@ class Flip extends Component {
         }
 
         <button className={styles.colorsBtn} onClick={this.toColor}>click to Colors</button>
+        </div>
         {
           content===1? <div className={styles.gridWrapper}>
             {cardsArr.map((i, index) => (
