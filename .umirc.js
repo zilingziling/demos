@@ -9,7 +9,7 @@ export default {
       antd: true,
       dva: true,
       dynamicImport: { webpackChunkName: true },
-      title: 'Flip',
+      title: 'DEMOS',
       dll: false,
       routes: {
         exclude: [
