@@ -12,5 +12,9 @@ export default
      {
        path:'/gallery',
        component:'./gallery'
+     },
+     {
+       path:'/hoc',
+       component:'./hoc/hoc'
      }
   ];

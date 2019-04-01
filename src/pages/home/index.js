@@ -38,6 +38,7 @@ export default class Index extends Component {
         <div className={styles.links}>
           <NavLink to='/flip'>FLIP</NavLink>
           <NavLink to='/gallery'>GALLERY</NavLink>
+          <NavLink to='/hoc'>HOC</NavLink>
         </div>
       </div>
     );
