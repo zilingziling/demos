@@ -39,6 +39,7 @@ export default class Index extends Component {
           <NavLink to='/flip'>FLIP</NavLink>
           <NavLink to='/gallery'>GALLERY</NavLink>
           <NavLink to='/hoc'>HOC</NavLink>
+          <NavLink to='/usehooks'>HOOKS</NavLink>
         </div>
       </div>
     );

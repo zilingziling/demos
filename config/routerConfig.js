@@ -16,5 +16,9 @@ export default
      {
        path:'/hoc',
        component:'./hoc/hoc'
+     },
+     {
+       path:'/usehooks',
+       component:'./usehooks/usehooks'
      }
   ];
