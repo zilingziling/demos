@@ -26,10 +26,11 @@ export default class Index extends Component {
   render() {
     const {changeColor,animate}=this.state
     return (
+
       <div className={styles.wrapper}>
         <div className={styles.leftBottom}/>
         <article>
-          <span>welcome</span>
+          <span>WELCOME</span>
           <h1>ABOUT ME</h1>
           <p>I'm a front-end-engineer . here are some practice demos by me . have fun ！ </p>
         </article>
@@ -39,7 +40,7 @@ export default class Index extends Component {
           <NavLink to='/flip'>FLIP</NavLink>
           <NavLink to='/gallery'>GALLERY</NavLink>
           <NavLink to='/hoc'>HOC</NavLink>
-          <NavLink to='/usehooks'>HOOKS</NavLink>
+          <NavLink to='/motions'>HOOKS</NavLink>
         </div>
       </div>
     );
