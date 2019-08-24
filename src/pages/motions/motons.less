@@ -1,0 +1,49 @@
+.content{
+  box-sizing: border-box;
+  padding: 16px;
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+}
+.hoverUl{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  li{
+    list-style: none;
+    width: 260px;
+    height: 180px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    background: #D9C2FF;
+    opacity: .6;
+    &:hover{
+      background: #D9C2FF;
+      opacity: 1;
+      animation: spring 300ms ease-out;
+    }
+  }
+}
+
+@keyframes spring {
+  15% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.2, 1.1);
+  }
+  40% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(0.95, 0.95);
+  }
+  75% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1.05, 1);
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: scale(1, 1);
+  }
+}
